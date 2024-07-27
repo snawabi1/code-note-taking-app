@@ -1,4 +1,5 @@
-# Coding Note-Taking App (my first project in javascript and using GitHub)
+# Coding Note-Taking App 
+(my first project in javascript and using GitHub)
 
 This app is designed to help you take notes while programming. You can use it to jot down ideas, write code snipets, and reminders.
 
