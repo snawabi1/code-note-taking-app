@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Note-Taking App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Coding Note-Taking App</h1>
+        <p>This app is designed to help you take notes while programming. You can use it to jot down ideas, write code
+            snipets, and reminders.</p>
+        <div class="note-input">
+            <input type="text" id="title" placeholder="Note Title (e.g., 'Javascript Snippet')">
+            <textarea id="content" placeholder="Note Content (e.g., let x = 1; console.log(x));"></textarea>
+            <button id="add-note">Add Note</button>
+            <button id="clear">Clear</button>
+        </div>
+        <div id="notes"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
