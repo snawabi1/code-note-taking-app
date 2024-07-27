@@ -5,22 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coding Note-Taking App</title>
+    <!-- Link to external CSS file for styling-->
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <div class="container">
+        <!-- Main heading of the app -->
         <h1>Coding Note-Taking App</h1>
+        <!-- Description of the app -->
         <p>This app is designed to help you take notes while programming. You can use it to jot down ideas, write code
             snipets, and reminders.</p>
+        <!-- Input for note title-->
         <div class="note-input">
             <input type="text" id="title" placeholder="Note Title (e.g., 'Javascript Snippet')">
+            <!-- Text area for note content-->
             <textarea id="content" placeholder="Note Content (e.g., let x = 1; console.log(x));"></textarea>
+            <!-- Button to add a new note-->
             <button id="add-note">Add Note</button>
+            <!-- Button to clear input fields-->
             <button id="clear">Clear</button>
         </div>
+        <!-- Container for displaying notes-->
         <div id="notes"></div>
     </div>
+    <!-- Link to external Javascript file for functionality-->
     <script src="app.js"></script>
 </body>
 

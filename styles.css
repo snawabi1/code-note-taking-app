@@ -1,3 +1,4 @@
+/* Style for the body */
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -6,74 +7,99 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #f4f4f4
+        /* Light gray background color */
 }
 
+/* Container for the app */
 .container {
     max-width: 600px;
     width: 100%;
     background: #fff;
+    /* White background color */
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Shadow for the container */
 }
 
+/* Style for the main heading */
 h1 {
     text-align: center;
 
 }
 
+/* Style for the description of the paragraph */
 p {
     text-align: center;
     color: #555
+        /* Dark gray text color */
 }
 
+/* Style for the input fields and text area */
 .note-input input,
 .note-input textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ddd;
+    /* Light gray border */
     border-radius: 4px
+        /* Rounded corners */
 }
 
+/* Style for the buttons */
 .note-input button {
     padding: 10px;
     width: 100%;
     background-color: #87CEEB;
+    /* Light blue background color */
     color: white;
     border: none;
     border-radius: 4px;
+    /* Rounded corners */
     cursor: pointer;
 }
 
+/* Change background color of buttons on hover */
 .note-input button:hover {
     background-color: #87CEEB
+        /* Deep sky blue background color */
 }
 
+/* Style for notes container */
 .notes {
     margin-top: 20px
 }
 
+/* Style for individual notes */
 .note {
     background: #f9f9f9;
+    /* light gray background color */
     padding: 10px;
     border: 1px solid #ddd;
+    /* Light gray border */
     border-radius: 4px;
+    /* Rounded corners */
     margin-bottom: 10px
 }
 
+/* Style for the note title */
 .note h2 {
     margin-top: 0;
 }
 
+/* Style for the delete button in notes */
 .note button {
     background: #eee8aa;
+    /* Pale goldenrod background color */
     color: white;
     border: none;
     border-radius: 4px;
+    /* Rounded corners */
     cursor: pointer;
     padding: 5px 10px;
 }
 
+/* Change background color of delete button on hover */
 .note button:hover {
     background: #7FFFD4;
 }

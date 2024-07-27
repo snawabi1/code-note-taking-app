@@ -1,3 +1,4 @@
+//I had to wrestle with this first line here very important.
 document.addEventListener('DOMContentLoaded', () => {
     const addNoteButton = document.getElementById('add-note');
     const clearButton = document.getElementById('clear');
@@ -5,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const titleInput = document.getElementById('title');
     const contentInput = document.getElementById('content');
 
+    // Event listener for adding a new note
     addNoteButton.addEventListener('click', () => {
         const title = titleInput.value.trim();
         const content = contentInput.value.trim();
@@ -37,17 +39,21 @@ document.addEventListener('DOMContentLoaded', () => {
                 alert('Give your note a name and some content.');
         }
     });
+
+// Event listener for clearing input fields. 
+//(The button was there but not doing anything)
 clearButton.addEventListener('click', () => {
     clearInputs();
 });
 
-
+// Function to save note
 function addNoteToStorage(title, content) {
     const notes = JSON.parse(localStorage.getItem('notes')) || [];
     notes.push({ title, content});
     localStorage.setItem('notes', JSON.stringify(notes));
 }
 
+// Function to delete note 
 function deleteNoteFromStorage(title, content) {
     const notes = JSON.parse(localStorage.getItem('notes')) || [];
     const noteIndex = notes.findIndex(note => note.title === title && note.content === content);
@@ -56,6 +62,7 @@ function deleteNoteFromStorage(title, content) {
         localStorage.setItem('notes', JSON.stringify(notes));
     }
 }
+// Function to display all notes that are saved
 function displayNotes() {
     const notes = JSON.parse(localStorage.getItem('notes')) || [];
     notesContainer.innerHTML = '';
@@ -83,7 +90,7 @@ function displayNotes() {
         notesContainer.appendChild(noteElement);
     });
 }
-
+    // Function to clear input fields
     function clearInputs() {
         titleInput.value = '';
         contentInput.value = '';
