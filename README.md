@@ -3,19 +3,19 @@
 (my first project in javascript and using GitHub)
 
 This app is designed to help you take notes while programming. 
-You can use it to jot down ideas, write code snipets, and reminders.
+You can use it to jot down ideas and write code snippets and reminders.
 
 ## Project Objectives
 
-- Create a functional note-taking application using HTMl, CSS, and JavaScript.
+- Create a functional note-taking application using HTML, CSS, and JavaScript.
 - Implement features to add, delete, and clear notes.
 - Ensure the app is user-friendly and responsive.
 
 # Installation
-Clone the repository: (i used vs code to do project)  
+Clone the repository: (I used vs. code to do the project)  
   `sh git clone https://github.com/snawabi1/coding-note-taking-app.git
 
-OR navigate to project directory 
+OR navigate to the project directory 
   `sh cd coding-note-taking-app
 ## Key Features
 
@@ -26,8 +26,8 @@ OR navigate to project directory
 
 ## Development Process
 
-- **Planning:** Defined project objectives and reqirements.
-- **Research and Preparation:** Reviewed course materials and similiar projects.
+- **Planning:** Defined project objectives and requirements.
+- **Research and Preparation:** Reviewed course materials and similar projects.
 - **Development:** Wrote the code and implemented features with regular testing and debugging.
 - **Documentation:** Created clear and concise documentation.
 
@@ -35,16 +35,11 @@ OR navigate to project directory
 
 - **Challenge 1:** The add button wasn't functioning correctly.
 
-  - **Solution:** Initially, the event listener for the add
-    button was not correctly set up. I realized that I was
-    using `textContent.textContent` instead of `textContent`
-    when setting the title and content, Correcting this typo
-    resolved this issue, and the add button started working as
-    expected.
+  - **Solution:** Initially, the event listener for the add button was not correctly set up. I realized that I was using `textContent.textContent` instead of `textContent`when setting the title and content. Correcting this typo resolved this issue, and the add button started working as expected.
 
-- **Challenge 2:** The title was not saving to the note.
+- **Challenge 2:** The title was not saved to the note.
 
-  - **Solution:** Discovered that the title was not being correctly assigned to the note due to a missing `textContent` assignment. Fixed the issue by ensuring the title input value was properly assigned to the note title's `textContent`
+  - **Solution:** Discovered that the title was not correctly assigned to the note due to a missing `textContent` assignment. Fixed the issue by ensuring the title input value was properly assigned to the note title's `textContent.`
 
 - **Challenge 3:** Styling issues on different screen sizes.
 
@@ -54,7 +49,7 @@ OR navigate to project directory
 
 1. **Open the App**:
 
-   - Use a local server to run the app. For example, with `npx http-server`, navigate to the project direcotry and run: ```sh
+   - Use a local server to run the app. For example, with `npx http-server`, navigate to the project directory and run: ```sh
      npx http-server
 
    ```
@@ -72,6 +67,7 @@ OR navigate to project directory
    - Click the "Delete" button to reset the input fields.
 
 4. **Clear Input Fields**:
+
    - Click the "Clear button to reset the input fields.
 
 ### Installation
@@ -98,7 +94,8 @@ npx http-server
 
 - Lessons Learned:
 
-Upon completion of this project and the course, I have achieved the following learning outcomes:
+Upon completion of this project and the course, 
+I have achieved the following learning outcomes:
 
 Write algorithms to solve common client-side scriping problems: Developed a Javascript function to add, delete, and manage notes effienctly.
 
