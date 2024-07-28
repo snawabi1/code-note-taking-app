@@ -106,7 +106,7 @@ Design and implement clientside scripts using JavaScript: Used JavaScript to add
 
 Use the Document Object Model (DOM) to manipulate the contents of web pages: Manipulated DOM elements to display and manage notes.
 
-Design and implement scripts to vaidate web forms: Implemented basic vailidation to ensure notes are not empty before adding them.
+Design and implement scripts to vaidate web forms: Implemented basic validation to ensure notes are not empty before adding them.
 
 Understand Object-Oriented Programming, especially the JavaScript prototype-based object model: Applied basic OOP principals by organizing code into functions and understanding prototypes.
 
