@@ -102,7 +102,7 @@ Upon completion of this project and the course, I have achieved the following le
 
 Write algorithms to solve common client-side scriping problems: Developed a Javascript function to add, delete, and manage notes effienctly.
 
-Design and implement clientside scripts using JavaScript to add dynamic behavior to the note-taking app: Used JavaScript to add dynamic behavior to the note-taking app.
+Design and implement clientside scripts using JavaScript: Used JavaScript to add dynamic behavior to the note-taking app.
 
 Use the Document Object Model (DOM) to manipulate the contents of web pages: Manipulated DOM elements to display and manage notes.
 
